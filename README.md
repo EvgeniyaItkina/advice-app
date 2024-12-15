@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Advice App 🧠✨
 
-## Getting Started
+A fun and simple web app built with **Next.js** that provides random advice for health and junior developers. Whether you're looking for a laugh or some helpful tips, this app has you covered.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Two categories of advice:
+   - **Health Advice**: Funny tips to "improve" your health.
+   - **Junior Advice**: Hilarious and relatable tips for junior developers.
+- A clean and interactive **UI**.
+- Modal window to display advice in style.
+- Built with **React** and **Next.js**.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Technologies Used
 
-## Learn More
+- **Next.js 15**: React framework for building web applications.
+- **CSS**: For styling and layout.
+- **JavaScript/TypeScript**: Application logic and interactivity.
+- **Git**: Version control.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Installation and Setup
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/EvgeniyaItkina/advice-app.git
 
-## Deploy on Vercel
+2. **Navigate to the project directory:**
+   ```bash
+   cd advice-app
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Install dependencies:**
+    ```bash
+    npm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Run the development server:**
+    ```bash
+    npm run dev
+
+5. **Open [http://localhost:3000](http://localhost:3000) in your browser to see the app.**
+
+## 🎮 How to Use
+1. Open the app.
+2. Click on:
+        "Get health advice" for random health-related tips.
+        "Get junior advice" for relatable developer tips.
+3. Enjoy the modal window with your advice!
+4. Close the modal with the "Yes, boss" button.
+
+## 🌟 Contributing
+Contributions are welcome!
+If you find bugs or want to suggest improvements, feel free to open an issue or a pull request.
