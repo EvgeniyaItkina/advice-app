@@ -6,8 +6,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en"> 
-      <body> 
+    <html lang="en"> {/* Обязательный тег <html> */}
+      <body> {/* Обязательный тег <body> */}
         {children}
       </body>
     </html>
